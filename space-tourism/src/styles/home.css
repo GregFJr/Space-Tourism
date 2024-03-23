@@ -1,0 +1,70 @@
+body {
+    font-family: "Arsenal", sans-serif;
+    font-size: 15px;
+}
+
+.home {
+    background-image: url('../../public/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.home-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-nav-container img{
+    padding: 100px 0 0 120px;
+    width: 3%;
+    height: 3%;
+}
+
+.home-nav {
+    padding: 70px;
+    margin: 60px 0;
+    border-radius: 10px;
+    background-color: #ffffff07;
+    backdrop-filter: blur(10px);
+    width: 55%;
+;
+
+}
+
+.home-nav a{
+    text-decoration: none;
+    color: #ffffff8b;
+    padding: 60px;
+    font-size: 3.8em;
+}
+
+.nav-line {
+    margin-top: 4.5%;
+    margin-left: 10px;
+    height:.1px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    width: 30%;
+    z-index: 2;
+}
+
+.home-message {
+    height: 90em;
+    width: 30%;
+    border: 1px solid white;
+}
+
+.home-btn {
+    height: 90em;
+    width: 30%;
+    border: 1px solid white;
+}
+
+.home-hero-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8%;
+}
