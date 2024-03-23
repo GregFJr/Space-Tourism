@@ -16,8 +16,18 @@ function Home() {
             </div>
 
             <section className="home-hero-container">
-            <div className="home-message"></div>
-            <div className="home-btn"></div>
+            <div className="home-message">
+                <p>So, you want to travel to</p>
+                <span>Space</span>
+                <p>let's face it if you want to go to space you might as well <br />
+                genuinely go to outer space and not hover kind of on the <br />
+                edge of it. Well sit back and relax because we'll give you <br />
+                a truly out of this world experience!
+                </p>
+            </div>
+            <div className="home-btn">
+                <div className="circle"><span>Explore</span></div>
+            </div>
             </section>
         </div>
     );
