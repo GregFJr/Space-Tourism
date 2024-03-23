@@ -2,6 +2,7 @@ body {
     font-family: "Arsenal", sans-serif;
     font-size: 15px;
     position: relative;
+    overflow: hidden;
 }
 
 .home {
@@ -104,6 +105,22 @@ body {
     grid-column: 2 / 2;
     grid-row: 2 / 3;
     position: relative;
+}
+
+.circle:hover {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .circle span {
